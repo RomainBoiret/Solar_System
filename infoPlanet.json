@@ -1,0 +1,94 @@
+{
+    "planets": [
+        {
+            "name": "Mercury",
+            "nickname": "The Smallest Planet",
+            "size": "4,880 km",
+            "orbit_size": "57.91 million km",
+            "surface_area": "74.8 million km²",
+            "description": "Mercury is the closest planet to the Sun and has a very thin atmosphere.",
+            "orbital_speed": "47.87 km/s",
+            "age": "4.6 billion years"
+        },
+        {
+            "name": "Venus",
+            "nickname": "The Hot Planet",
+            "size": "12,104 km",
+            "orbit_size": "108.2 million km",
+            "surface_area": "460.2 million km²",
+            "description": "Venus is similar in size to Earth but has a thick atmosphere of carbon dioxide and sulfuric acid clouds.",
+            "orbital_speed": "35.02 km/s",
+            "age": "4.6 billion years"
+        },
+        {
+            "name": "Earth",
+            "nickname": "The Blue Planet",
+            "size": "12,742 km",
+            "orbit_size": "149.6 million km",
+            "surface_area": "510.1 million km²",
+            "description": "Earth is the only known planet to support life, with vast oceans and diverse ecosystems.",
+            "orbital_speed": "29.78 km/s",
+            "age": "4.5 billion years"
+        },
+        {
+            "name": "Moon",
+            "nickname": "Earth's Satellite",
+            "size": "3,474.8 km",
+            "orbit_size": "384,400 km",
+            "surface_area": "37.9 million km²",
+            "description": "The Moon is Earth's only natural satellite and is the fifth largest moon in the solar system.",
+            "orbital_speed": "1.02 km/s",
+            "age": "4.5 billion years"
+        },
+        {
+            "name": "Mars",
+            "nickname": "The Red Planet",
+            "size": "6,779 km",
+            "orbit_size": "227.9 million km",
+            "surface_area": "144.8 million km²",
+            "description": "Mars is known for its red color due to iron oxide on its surface and has the largest volcano in the solar system.",
+            "orbital_speed": "24.07 km/s",
+            "age": "4.6 billion years"
+        },
+        {
+            "name": "Jupiter",
+            "nickname": "The Gas Giant",
+            "size": "139,820 km",
+            "orbit_size": "778.5 million km",
+            "surface_area": "61.42 million km²",
+            "description": "Jupiter is the largest planet in the solar system, known for its Great Red Spot and many moons.",
+            "orbital_speed": "13.07 km/s",
+            "age": "4.6 billion years"
+        },
+        {
+            "name": "Saturn",
+            "nickname": "The Ringed Planet",
+            "size": "116,460 km",
+            "orbit_size": "1.43 billion km",
+            "surface_area": "42.7 million km²",
+            "description": "Saturn is famous for its stunning rings made of ice and rock particles.",
+            "orbital_speed": "9.69 km/s",
+            "age": "4.6 billion years"
+        },
+        {
+            "name": "Uranus",
+            "nickname": "The Ice Giant",
+            "size": "50,724 km",
+            "orbit_size": "2.87 billion km",
+            "surface_area": "8.1 million km²",
+            "description": "Uranus has a unique tilt and is known for its blue-green color due to methane in its atmosphere.",
+            "orbital_speed": "6.81 km/s",
+            "age": "4.6 billion years"
+        },
+        {
+            "name": "Neptune",
+            "nickname": "The Distant Blue Planet",
+            "size": "49,244 km",
+            "orbit_size": "4.5 billion km",
+            "surface_area": "7.6 million km²",
+            "description": "Neptune is the farthest planet from the Sun and is known for its deep blue color and strong winds.",
+            "orbital_speed": "5.43 km/s",
+            "age": "4.6 billion years"
+        }
+    ]
+}

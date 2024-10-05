@@ -1,0 +1,64 @@
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    border-radius: 50%;
+    pointer-events: all;
+    transform: translate(-50%, -50%);
+}
+
+.mercury {
+    width: 10px; 
+    height: 10px; 
+    background: radial-gradient(circle, #7d7d7d, #5a5a5a); /* Texture gris métallique */
+    border-radius: 50%;
+}
+
+.venus {
+    width: 15px; 
+    height: 15px; 
+    background: radial-gradient(circle, #f9a800, #c88a00); /* Dégradé doré/orange */
+    border-radius: 50%;
+}
+
+.earth {
+    width: 20px; 
+    height: 20px; 
+    background: radial-gradient(circle, #1e90ff, #004080); /* Dégradé bleu */
+    border-radius: 50%;
+}
+
+.mars {
+    width: 15px; 
+    height: 15px; 
+    background: radial-gradient(circle, #ff4500, #b22222); /* Dégradé rouge */
+    border-radius: 50%;
+}
+
+.jupiter {
+    width: 30px; 
+    height: 30px; 
+    background: radial-gradient(circle, #ffcc00, #ff9900); /* Dégradé jaune/orange */
+    border-radius: 50%;
+}
+
+.saturn {
+    width: 28px; 
+    height: 28px; 
+    background: radial-gradient(circle, #d9b342, #b5951e); /* Dégradé or */
+    border-radius: 50%;
+}
+
+.uranus {
+    width: 24px; 
+    height: 24px; 
+    background: radial-gradient(circle, #89cff0, #4ea1e0); /* Dégradé bleu clair */
+    border-radius: 50%;
+}
+
+.neptune {
+    width: 24px; 
+    height: 24px; 
+    background: radial-gradient(circle, #1f3f8c, #0a1f5e); /* Dégradé bleu foncé */
+    border-radius: 50%;
+}

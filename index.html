@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/orbits.css">
+    <link rel="stylesheet" href="./styles/planets.css">
+    <link rel="stylesheet" href="./styles/solarSystem.css">
+</head>
+<body>
+    <div class="solar-system">
+        <div class="sun"></div>
+        <div class="orbit mercury-orbit">
+            <div class="planet mercury"></div>
+        </div>
+        <div class="orbit venus-orbit">
+            <div class="planet venus"></div>
+        </div>
+        <div class="orbit earth-orbit">
+            <div class="planet earth">
+                <div class="orbit moon-orbit">
+                    <div class="planet moon"></div>
+                </div>
+            </div>
+        </div>
+        <div class="orbit mars-orbit">
+            <div class="planet mars"></div>
+        </div>
+        <div class="orbit jupiter-orbit">
+            <div class="planet jupiter"></div>
+        </div>
+        <div class="orbit saturn-orbit">
+            <div class="planet saturn"></div>
+        </div>
+        <div class="orbit uranus-orbit">
+            <div class="planet uranus"></div>
+        </div>
+        <div class="orbit neptune-orbit">
+            <div class="planet neptune"></div>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <button id="toggle-animation">Arrêter l'animation</button>
+        <button id="zoom-in">Zoom In</button>
+        <button id="zoom-out">Zoom Out</button>
+        <span id="zoom-value">Zoom: 100%</span>
+    </div>
+
+    <script src="./scripts/control.js"></script>
+    <script src="./scripts/zoom.js"></script>
+    <script src="./scripts/infos.js"></script>
+    <script src="./scripts/stars.js"></script>
+</body>
+</html>

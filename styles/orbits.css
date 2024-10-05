@@ -1,0 +1,61 @@
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    animation: rotateOrbit linear infinite;
+}
+
+.active-orbit {
+    border: 2px dotted orange;
+}
+
+.mercury-orbit { width: 140px; height: 140px; animation-duration: 5s; }
+.venus-orbit { width: 200px; height: 200px; animation-duration: 8s; }
+.earth-orbit { width: 260px; height: 260px; animation-duration: 12s; }
+.mars-orbit { width: 320px; height: 320px; animation-duration: 18s; }
+.jupiter-orbit { width: 480px; height: 480px; animation-duration: 24s; }
+.saturn-orbit { width: 620px; height: 620px; animation-duration: 30s; }
+.uranus-orbit { width: 820px; height: 820px; animation-duration: 36s; }
+.neptune-orbit { width: 1000px; height: 1000px; animation-duration: 42s; }
+
+@keyframes rotateOrbit {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.earth-orbit .moon-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    animation: rotateMoonOrbit 2s linear infinite;
+}
+
+.earth-orbit .active-orbit {
+    border: 2px dotted orange;
+}
+
+.earth-orbit .moon {
+    position: absolute;
+    top: 50%; 
+    left: 100%;
+    width: 8px;
+    height: 8px;
+    background: lightgray;
+    pointer-events: all;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes rotateMoonOrbit {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
